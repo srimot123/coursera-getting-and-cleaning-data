@@ -16,4 +16,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
   4) Last line within this Script creates "tidy_dataset.txt" file in your working directory
   
 # Code book:
-  Check the code book for all the variables and summaries calculated, along with units, and other relevant information.
+  Check the code book for all the variables and summaries calculated, along with units, and other relevant information of this file.
