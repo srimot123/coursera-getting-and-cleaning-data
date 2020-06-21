@@ -12,8 +12,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
   1) Download the user activity data zip file from the above link
   2) Unzip the folder
-  3) Run the run_analysis.R Script
-  4) Last line within this Script creates "tidy_dataset.txt" file in your working directory
+  3) Run the run_analysis.R Script which performs below steps:
+        a) Merges the training and the test sets to create one data set.
+        b) Extracts only the measurements on the mean and standard deviation for each measurement.
+        c) Uses descriptive activity names to name the activities in the data set
+        d) Appropriately labels the data set with descriptive variable names.
+        e) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+  4) Last line within this R Script creates final dataset "tidy_dataset.txt" file in your working directory
   
 # Code book:
   Check the code book for all the variables and summaries calculated, along with units, and other relevant information of this file.
