@@ -28,7 +28,7 @@ Follow below steps as described in the course project’s definition.
 		○ Using grep identifying all the column labels having text 'mean or std' by checking in features variable which has all  the column labels
 		○ Assign the data frame with selected Columns to new variable "data_mean_std_labels" (10299 rows, 88 columns)
 #	5. Uses descriptive activity names to name the activities in the data set
-		○ Read the activity_labels file to a new variable actvitiy_labels
+		○ Read the activity_labels file to a new variable activity_labels
 		○ Update the merged_data set labels using the activity_labels variable having values in Column 2 
 #	6. Appropriately labels the data set with descriptive variable names
 		○ Replace the open and closed parenthesis with "" (No Space) using gsub function
