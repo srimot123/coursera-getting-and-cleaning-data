@@ -21,8 +21,8 @@ Follow below steps as described in the course project’s definition.
 		   Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 		
 #       3. Merge the training and the test sets to create one data set
-                ○ test_data data frame(10299 rows, 561 columns) is created by keeping data_test_x, data_test_y and data_test_subject in data frame
-                ○ train_data data frame (10299 rows, 1 column) is created by keepingdata_train_x, data_train_y and data_train_subject in  data frame
+                ○ test_data data frame(2947 rows, 563 columns) is created by keeping data_test_x, data_test_y and data_test_subject in data frame
+                ○ train_data data frame (7352 rows, 563 column) is created by keepingdata_train_x, data_train_y and data_train_subject in  data frame
                 ○ merged_data (10299 rows, 563 column) is created by merging test_data and train_data using rbind()
 #	4. Extracts only the measurements on the mean and standard deviation for each measurement
 		○ Using grep identifying all the column labels having text 'mean or std' by checking in features variable which has all  the column labels
